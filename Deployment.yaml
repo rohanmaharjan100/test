@@ -20,11 +20,6 @@ spec:
       - name: demo-react-app
         # Docker Image
         image: rohanmaharjan100/test
-        resources:
-         #cpu and memory limit
-          limits:
-            memory: "550Mi"
-            cpu: "500m"
         ports:
         #the port on which the app can be reached out inside the container
         - containerPort: 3000
