@@ -1,25 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  #the Deployment Name
-  name: demo-react-app
+  name: test
 spec:
-  #the Number of Pods
   replicas: 2
   selector:
     matchLabels:
-      app: demo-react-app
+      app: test
   template:
     metadata:
       labels:
-        app: demo-react-app
+        app: test
     spec:
-      # Container Details
       containers:
-      
-      - name: demo-react-app
-        # Docker Image
-        image: rohanmaharjan100/test
-        ports:
-        #the port on which the app can be reached out inside the container
-        - containerPort: 3000
+        - name: test
+          image: rohanmaharjan100/test:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
