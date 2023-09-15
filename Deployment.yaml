@@ -4,6 +4,8 @@ metadata:
   name: test
 spec:
   replicas: 2
+  strategy:  # Change the deployment strategy to "Recreate"
+    type: Recreate  # Use "Recreate" to delete existing pods and create new ones
   selector:
     matchLabels:
       app: test
@@ -18,4 +20,3 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
-
