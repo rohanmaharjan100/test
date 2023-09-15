@@ -1,10 +1,12 @@
-import "./App.css";
+import HeroSection from "./components/HeroSection";
+import TechStack from "./components/TechStack";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Lighthouse Test site Rohan Maharjan</h1>
+        <HeroSection />
+        <TechStack/>
       </header>
     </div>
   );
