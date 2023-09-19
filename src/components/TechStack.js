@@ -6,6 +6,7 @@ import ApolloIcon from "../assets/Apollo.svg";
 import GraphQLIcon from "../assets/GraphQL.svg";
 import PostgresSQLIcon from "../assets/PostgresSQL.svg";
 import ReactJSIcon from "../assets/ReactJs.svg";
+import docker from "../assets/docker-svgrepo-com.svg";
 
 const TechStack = () => {
   return (
@@ -73,6 +74,15 @@ const TechStack = () => {
           <img
             layout="fixed"
             src={ApolloIcon}
+            width={100}
+            height={100}
+            alt="apollo"
+          />
+        </div>
+        <div className="lg:pr-128 pr-32 ">
+          <img
+            layout="fixed"
+            src={docker}
             width={100}
             height={100}
             alt="apollo"
