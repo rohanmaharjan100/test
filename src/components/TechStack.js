@@ -10,7 +10,7 @@ import ReactJSIcon from "../assets/ReactJs.svg";
 const TechStack = () => {
   return (
     <div className="p-8">
-      <h1 className="text-xl  mb-16 text-center font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+      <h1 className="text-xl px-8  mb-16 text-center font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
        My Favrouite Tech Stack
       </h1>
       <div class="grid grid-cols-5 gap-8">
