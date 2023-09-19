@@ -9,6 +9,6 @@ COPY package-lock.json ./
 RUN npm install
 # copy everything to /app directory
 COPY ./ ./
-EXPOSE 3000
+
 # run the app
 CMD ["npm", "start"]
