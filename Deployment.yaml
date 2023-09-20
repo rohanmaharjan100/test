@@ -1,19 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: lighthouse
+  name: test
 spec:
-  replicas: 1
+  replicas: 2
+  strategy:  # Change the deployment strategy to "Recreate"
+    type: Recreate  # Use "Recreate" to delete existing pods and create new ones
   selector:
     matchLabels:
-      app: lighthouse
+      app: test
   template:
     metadata:
       labels:
-        app: lighthouse
+        app: test
     spec:
       containers:
-        - name: lighthouse
+        - name: test
           image: rohanmaharjan100/test:latest
           imagePullPolicy: Always
           ports:
