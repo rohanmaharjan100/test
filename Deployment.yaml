@@ -19,4 +19,4 @@ spec:
           image: rohanmaharjan100/test:latest
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 80
+            - containerPort: 3000
