@@ -7,12 +7,12 @@ import facebook from "../assets/facebook-svgrepo-com (1).svg";
 
 const HeroSection = () => {
   return (
-    <section className="bg-gray-900 ">
+    <section className="bg-gray-900 h-screen flex flex-col items-center justify-center ">
       <div className="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-12 flex flex-col items-center">
         <img
           alt="name"
           src={img}
-          class="h-36 w-36 rounded-full object-cover object-[69%]"
+          className="h-48 w-48 rounded-full object-cover object-[69%] mb-8"
         />
 
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
