@@ -2,11 +2,7 @@
 name: Lighthouse Check
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+  repository_dispatch:
 jobs:
   build:
 
