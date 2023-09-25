@@ -17,7 +17,7 @@ const HeroSection = () => {
 
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none  text-white">
           Hi, I am <br />
-          <p className= " mt-4 md:text-5xl lg:text-6xl"> Rohan Maharjan</p>
+          <p className= " mt-4 md:text-5xl lg:text-6xl">  Maharjan</p>
         </h1>
         <h3 className="mb-4 text-xl font-bold tracking-tight leading-none text-gray-400 md:text-xl lg:text-xl dark:text-gray-400">
           Full Stack Web developer
