@@ -1,5 +1,4 @@
-name: Lighthouse Check
-
+name: Lighthouse
 on:
   workflow_dispatch:
 
