@@ -26,14 +26,14 @@ const HeroSection = () => {
           Experienced web developer with a strong track record in frontend and
           backend development, adept at creating seamless online experiences.
         </p>
-        <div className="flex flex-col mb-4 lg:mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        {/* <div className="flex flex-col mb-4 lg:mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="/view-resume"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-yellow-300 hover:bg-orange-600 focus:ring-4 focus:ring-gray-100"
           >
             View Resume
           </a>
-        </div>
+        </div> */}
         <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
           <span className="font-semibold text-gray-400 uppercase">
             CONTACT ME
